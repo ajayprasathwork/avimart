@@ -11,12 +11,49 @@
     flex-direction: row;
 }
 .nav-link{
+    display: flex;
     flex: 45%;
-    width:100%;
     flex-direction: row;
+    padding: 0vw 2vw 0vw 2vw;
     background-color: var(--yellow);
 
 }
+.nav-link-part1{
+    display: flex;
+    flex:50%;
+    height: 100%;
+    align-items: center;
+    flex-direction: row;
+    color: #000;
+    font-weight: 700;
+}
+.nav-link-part1 a{
+    padding: 10px;
+}
+.nav-link-part1 .icon{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.nav-link-part2{
+    display: flex;
+    flex:50%;
+    height: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-link-part2 a{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 6px;
+    font-size: 14px;
+    border-right: 1px solid #888787;
+}
+.nav-link-part2 a .icon{
+    margin-left: 4px;
+}
+
 
 .logo{
     display: flex;
@@ -34,18 +71,31 @@
 
 .headicon{
     display: flex;
-    flex: 20%;
+    flex: 15%;
     flex-direction: row;
     align-items: center;
-    background-color: aqua;
     justify-content: space-around;
+}
+.headicon-box{
+    display: flex;
+    padding: 10px;
+    font-size: 1vw;
+    color: var(--graytext);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.headicon-box .icon{
+    font-size: 1.5vw;
+    color: #000;
 }
 .logo img{
     width: 40px;
     height: 40px;
 }
 .logo p{
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: bold;
 }
 .search-continer{
@@ -59,12 +109,17 @@
 }
 .categories{
     display: flex;
-    width:20% ;
+    width:25% ;
     height: 100%;
     align-items: center;
+    justify-content:space-around;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     background-color: #eeeeee;
+}
+.categories p{
+    font-size: 1vw;
+    font-weight: 700;
 }
 
 .search-input{
@@ -76,7 +131,7 @@
 }
 .search-icon{
     display: flex;
-    width:10% ;
+    width:5% ;
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -96,6 +151,12 @@
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 5px;
+    color: var(--graytext);
+
     border: 0.5px solid var(--yellow);
 
+}
+.findstores .icon{
+    color: var(--yellow);
+    font-size: 1.5vw;
 }
