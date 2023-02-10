@@ -1,0 +1,16 @@
+.p-prv{
+    position:absolute;
+    left: -20px;
+    top: 45%;
+    padding: 10px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 20px;
+}
+.p-next{
+    position:absolute;
+    right: -20px;
+    top: 45%;
+    padding: 10px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 20px;
+}

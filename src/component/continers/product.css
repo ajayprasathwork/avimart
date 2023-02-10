@@ -1,0 +1,24 @@
+.pc{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+
+}
+
+.pc-head{
+   display: flex;
+   height: 10%;
+   background-color: aquamarine;
+}
+.pci-continer{
+    display: flex;
+    position: relative;
+    height: 90%;
+    background-color: rgb(17, 19, 18);
+}
+.ts{
+    display: flex;
+    height: 100%;
+    flex: 20%;
+}
+

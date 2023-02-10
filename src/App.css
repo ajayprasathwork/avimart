@@ -19,6 +19,8 @@ scroll-behavior: smooth;
 width: 1px;
 }
 .App{
+  display: flex;
+  flex-direction: column;
 }
 
 
