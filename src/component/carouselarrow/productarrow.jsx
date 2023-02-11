@@ -1,11 +1,12 @@
 import React from 'react';
 import { IoIosArrowBack,IoIosArrowForward } from "react-icons/io";
 import './style.css'
-const productarrow = () => {
+const productarrow = (props) => {
+   
     return (
         <>
                  <IoIosArrowBack className='p-prv'/>
-                 <IoIosArrowForward className='p-next'/>
+                 <IoIosArrowForward className='p-next' onClick={()=>{props.slide('right')}}/>
         </>
     );
 };

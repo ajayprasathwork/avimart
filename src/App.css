@@ -5,6 +5,7 @@
     --iconcolor:#000;
     --iconsize:1.5vw;
     --graytext:#1D1D1D;
+    --cborder:1px solid #E5E5E5
   }
 *{
 padding: 0px ;
@@ -16,11 +17,8 @@ html{
 scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
-width: 1px;
-}
-.App{
-  display: flex;
-  flex-direction: column;
+width: 0px;
+display: none;
 }
 
 

@@ -1,0 +1,16 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    padding: 0vw 2vw 0vw 2vw;
+}
+
+.main{
+    width: 80%;
+}
+
+
+.side{
+    display: flex;
+    width: 20%;
+    background-color: aqua;
+}

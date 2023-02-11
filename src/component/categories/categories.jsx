@@ -1,13 +1,13 @@
 import React from 'react';
 import './categories.css';
- import Pcard from '../continers/product.jsx'
+import Pcard from '../continers/product.jsx'
+
 const Shopbycategories = () => {
     return (
         <div className='Shopbycategories'>
             <div className='dfs'>
-                <Pcard/>
+                <Pcard titel="Daily Flash Sale" sub="See bonus deals (18)"/>
             </div>
-            <div className='ts'></div>
 
         </div>
     );
