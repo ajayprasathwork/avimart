@@ -6,6 +6,10 @@ import Cared from '../component/categories/categories.jsx'
 import Pcard from '../component/continers/product'
 import Shopby from '../component/continers/shopby.jsx'
 import panner from '../img/Banner.png';
+import Sidecard from '../component/cards/sidecard';
+import sideimg from '../img/sales.png'
+import ben from '../img/ben.png'
+
 const home = () => {
     return (
         <>        <Nav/>
@@ -25,6 +29,25 @@ const home = () => {
                     <img src={panner}/>
 
                 </div>
+                <Sidecard/>
+                <img src={sideimg}/>
+                <img src={ben}/>
+
+            </div>
+
+        </div>
+        <div className='addbar'>
+            <p>Safe, convenient shopping from home.</p>
+            <p>Free shipping on all orders over $75</p>
+        </div>
+        <div className='home'>
+            <div className='main'>
+                
+                <Cared tt="Popular Combo Deals" sub="See More"/>
+            </div>
+            <div className='side down'>
+                
+                <Sidecard/>
             </div>
 
         </div>

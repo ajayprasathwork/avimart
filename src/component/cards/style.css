@@ -43,3 +43,22 @@
     padding: 4px 0px 4px 0px;
 
 }
+
+.sidecard{
+    display: flex;
+    margin-top: 20px;
+}
+.sidecard .header{
+    display: flex;
+    width: 100%;
+   align-items: center;
+   padding: 10px 0px 10px 0px;
+   justify-content: space-between;
+   border-bottom: var(--cborder);
+}
+
+.header p{
+    font-size: 17px;
+    font-weight: 700;
+    color: #212121;
+}
