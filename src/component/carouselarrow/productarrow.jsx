@@ -5,7 +5,7 @@ const productarrow = (props) => {
    
     return (
         <>
-                 <IoIosArrowBack className='p-prv'/>
+                 <IoIosArrowBack className='p-prv' onClick={()=>{props.slide('left')}}/>
                  <IoIosArrowForward className='p-next' onClick={()=>{props.slide('right')}}/>
         </>
     );
